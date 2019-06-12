@@ -2,7 +2,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Text, Button } from '@tarojs/components'
 import './index.scss'
 import Head from '../../components/head/head'
-
+import Food from '../../components/food/food'
 export default class Index extends Component {
 
   /**
@@ -31,6 +31,7 @@ export default class Index extends Component {
     return (
       <View className='index'>
       <Head></Head>
+      <Food></Food>
       </View>
     )
   }
